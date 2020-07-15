@@ -1,0 +1,12 @@
+{
+  "name": "Hide Youtube Recommendations",
+  "description": "Hide suggested videos on Youtube so get better focus on the content you are watching",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "manifest_version": 2
+}
